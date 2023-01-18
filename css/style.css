@@ -1,0 +1,126 @@
+@font-face{
+  font-family: 'Open-sans-semibold';
+  src: url(/Fonts/open-sans-semibold.ttf);
+  font-weight: 400
+}
+
+@font-face{
+  font-family: 'Open-sans-extrabold';
+  src: url(/Fonts/open-sans-extrabold.ttf);
+  font-weight: 400
+}
+
+@font-face{
+  font-family: 'Open-sans-bold2';
+  src: url(/Fonts/open-sans-bold2.ttf);
+  font-weight: 400;
+}
+
+body{
+  font-family: Open_sans;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.header-nav{
+  list-style-type: none;
+  color:#fff;
+  font-family: 'Open-sans-semibold';
+  font-size: 16px;
+}
+
+.header-art{
+  font-family: 'Open-sans-semibold';
+  color: #3A68B8;
+  font-size: 22.55px;
+}
+
+.header-nav a{
+  text-decoration: none;
+  color: #fff;
+  text-transform: initial;
+}
+
+.section3-headline{
+  font-family: 'Open-sans-bold2';
+  font-size: 25px;
+  color: #fff;
+}
+
+.section3-text{
+  font-family: 'Open-sans-semibold';
+  font-size: 16px;
+  color: #fff;
+}
+
+.section1{
+  font-family: 'Open-sans-semibold';
+  font-size: 18px;
+  color: #fff;
+}
+
+.section1-headline{
+  font-family: 'Open-sans-extrabold';
+  font-size: 55px;
+  color: #fff;
+}
+
+.section1-next{
+  font-family: 'Open-sans-semibold';
+  font-size: 18px;
+  color: #3A68B8;
+  text-transform: uppercase;
+}
+
+.section1-button a{
+  text-decoration: none;
+  color: #fff;
+  text-transform: initial;
+  font-family: 'Open-sans-semibold';
+  font-size: 20px;
+}
+
+.section2-headline{
+  color: #fff;
+  font-family: 'Open-sans-bold2';
+  font-size: 40px;
+}
+
+.section2-text{
+  color: #fff;
+  font-size: 16;
+  font-family: 'open-sans-semibold';
+}
+
+.section2-text a{
+  color: #fff;
+  font-size: 16;
+  font-family: 'open-sans-semibold';
+  text-decoration: none;
+}
+
+.footer-art{
+  color: #3A68B8;
+  font-family: 'open-sans-semibold';
+  font-size: 15.96px;
+}
+
+.footer-text{
+  color: #fff;
+  font-family: 'open-sans-semibold';
+  font-size: 14px;
+}
+
+.footer-text a{
+  color: #fff;
+  font-family: 'open-sans-semibold';
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.footer-text li{
+  color: #fff;
+  font-family: 'open-sans-semibold';
+  font-size: 14px;
+  list-style-type: none;
+}
