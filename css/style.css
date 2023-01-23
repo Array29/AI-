@@ -16,6 +16,7 @@
   font-weight: 700;
 }
 
+<<<<<<< HEAD
 html{
   width: 1925px;
   height: 3850px;
@@ -24,13 +25,18 @@ html{
   box-sizing: border-box;
 }
 
+=======
+>>>>>>> lesson5
 body {
   font-family: 'Open-sans';
   font-size: 16px;
   line-height: 18px;
   color:#fff;
+<<<<<<< HEAD
   margin: ;
   width: ;
+=======
+>>>>>>> lesson5
 }
 
 .header-nav {
@@ -38,6 +44,7 @@ body {
   font-weight: 600;
   font-size: 16px;
   line-height: 22px;
+<<<<<<< HEAD
   display: flex;
   flex-direction: row;
   height: 100px;
@@ -45,6 +52,8 @@ body {
   align-content: space-around;
   margin: 0px;
   padding: 0px;
+=======
+>>>>>>> lesson5
 }
 
 .header-art {
