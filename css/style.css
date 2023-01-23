@@ -1,0 +1,153 @@
+@font-face {
+  font-family: 'Open-sans';
+  src: url(/Fonts/open-sans-semibold.ttf);
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Open-sans';
+  src: url(/Fonts/open-sans-extrabold.ttf);
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: 'Open-sans';
+  src: url(/Fonts/open-sans-bold2.ttf);
+  font-weight: 700;
+}
+
+body {
+  font-family: 'Open-sans';
+  font-size: 16px;
+  line-height: 18px;
+  color:#fff;
+}
+
+.header-nav {
+  list-style-type: none;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.header-art {
+  font-weight: 600;
+  color: #3A68B8;
+  font-size: 23px;
+  line-height: 31px;
+}
+
+.header-nav a {
+  text-decoration: none;
+  color:#fff;
+  text-transform: capitalize;
+}
+
+.section3-headline {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 31px;
+  opacity: 70%;
+}
+
+.section3-text, .section2-text {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  opacity: 70%;
+}
+
+.section1 {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 29px;
+}
+
+.section1-text{
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 29px;
+  opacity: 70%;
+}
+
+.main-heading{
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 72px;
+}
+
+.section1-subtitle {
+  font-weight: 600;
+  font-size: 18px;
+  color: #3A68B8;
+  text-transform: uppercase;
+  line-height: 29px;
+}
+
+.section1-listofpics{
+  list-style-type: none;
+}
+
+.section1-buttons{
+  text-decoration: none;
+  color: #fff;
+  text-transform: initial;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+}
+
+.section2-headline {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+}
+
+.section2-link{
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  line-height: 22px;
+}
+
+.footer-subtitle {
+  color: #3A68B8;
+  font-weight: 00;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.footer {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.footer-text{
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  opacity: 60%;
+}
+
+.footer a {
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+  text-decoration: none;
+  line-height: 18px;
+  opacity: 60%;
+}
+
+.footer li {
+  list-style-type: none;
+}
+
+.footer .footer-heads {
+  font-weight: 600;
+  font-size: 16px;
+  text-decoration: none;
+  line-height: 20px;
+  opacity: 100%;
+}
