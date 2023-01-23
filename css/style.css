@@ -25,34 +25,36 @@ body {
 
 .header-nav {
   list-style-type: none;
-  font-weight: 800;
+  font-weight: 600;
   font-size: 16px;
   line-height: 22px;
 }
 
 .header-art {
-  font-weight: 800;
+  font-weight: 600;
   color: #3A68B8;
-  font-size: 31px;
+  font-size: 23px;
   line-height: 31px;
 }
 
 .header-nav a {
   text-decoration: none;
   color:#fff;
-  text-transform: initial;
+  text-transform: capitalize;
 }
 
 .section3-headline {
-  font-weight: 600;
+  font-weight: 700;
   font-size: 25px;
   line-height: 31px;
+  opacity: 70%;
 }
 
 .section3-text, .section2-text {
-  font-weight: 800;
+  font-weight: 600;
   font-size: 16px;
   line-height: 26px;
+  opacity: 70%;
 }
 
 .section1 {
@@ -61,82 +63,91 @@ body {
   line-height: 29px;
 }
 
-.section1 h1 {
+.section1-text{
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 29px;
+  opacity: 70%;
+}
+
+.main-heading{
   font-weight: 700;
   font-size: 55px;
   line-height: 72px;
 }
 
 .section1-subtitle {
-  font-weight: 800;
+  font-weight: 600;
   font-size: 18px;
   color: #3A68B8;
   text-transform: uppercase;
-  line-height: 29;
+  line-height: 29px;
 }
 
-.section1 a {
+.section1-listofpics{
+  list-style-type: none;
+}
+
+.section1-buttons{
   text-decoration: none;
-  color:#fff;
+  color: #fff;
   text-transform: initial;
-  font-weight: 800;
+  font-weight: 600;
   font-size: 20px;
   line-height: 27px;
 }
 
 .section2-headline {
-  font-weight: 600;
+  font-weight: 700;
   font-size: 40px;
   line-height: 52px;
 }
 
-.section2-text a {
+.section2-link{
   color: #fff;
   font-size: 16px;
-  font-weight: 800;
+  font-weight: 600;
   text-decoration: none;
   line-height: 22px;
 }
 
 .footer-subtitle {
   color: #3A68B8;
-  font-weight: 800;
+  font-weight: 00;
   font-size: 16px;
   line-height: 22px;
 }
 
-.footer-text {
-  font-weight: 800;
+.footer {
+  font-weight: 600;
   font-size: 14px;
   line-height: 18px;
 }
 
-.footer-text a {
+.footer-text{
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  opacity: 60%;
+}
+
+.footer a {
   color: #fff;
-  font-weight: 800;
+  font-weight: 600;
   font-size: 14px;
   text-decoration: none;
   line-height: 18px;
+  opacity: 60%;
 }
 
-.footer-text li {
-  font-weight: 800;
-  font-size: 14px;
+.footer li {
   list-style-type: none;
-  line-height: 18px;
 }
 
-.footer-heads {
-  font-weight: 800;
+.footer .footer-heads {
+  font-weight: 600;
   font-size: 16px;
   text-decoration: none;
   line-height: 20px;
-}
-
-.footer-heads a {
-  color: #fff;
-  font-weight: 800;
-  font-size: 16px;
-  text-decoration: none;
-  line-height: 20px;
+  opacity: 100%;
 }
