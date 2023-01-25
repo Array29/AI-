@@ -16,27 +16,21 @@
   font-weight: 700;
 }
 
-<<<<<<< HEAD
 html{
-  width: 1925px;
+  width: 1920px;
   height: 3850px;
-  margin: ;
-  padding: ;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
-=======
->>>>>>> lesson5
 body {
   font-family: 'Open-sans';
   font-size: 16px;
   line-height: 18px;
   color:#fff;
-<<<<<<< HEAD
   margin: ;
   width: ;
-=======
->>>>>>> lesson5
 }
 
 .header-nav {
@@ -44,29 +38,32 @@ body {
   font-weight: 600;
   font-size: 16px;
   line-height: 22px;
-<<<<<<< HEAD
   display: flex;
   flex-direction: row;
-  height: 100px;
+  width: 411px;
   align-items: center;
-  align-content: space-around;
-  margin: 0px;
-  padding: 0px;
-=======
->>>>>>> lesson5
+  justify-content: center;
+  margin-top: 0px;
+  margin-left: 754px;
+  margin-right: 755px;
 }
 
 .header-art {
+  text-decoration: none;
   font-weight: 600;
   color: #3A68B8;
   font-size: 23px;
   line-height: 31px;
+  width: 224px;
+  margin-top: 36px;
+  margin-left: 403px;
 }
 
 .header-nav a {
   text-decoration: none;
   color:#fff;
   text-transform: capitalize;
+  margin-right: 40px;
 }
 
 .section3-headline {
@@ -94,12 +91,20 @@ body {
   font-size: 18px;
   line-height: 29px;
   opacity: 70%;
+  width: 558px;
+  margin-left: 388px;
+  margin-right: 975px;
+  margin-bottom: 50px;
 }
 
 .main-heading{
   font-weight: 700;
   font-size: 55px;
   line-height: 72px;
+  width: 604px;
+  margin-right: 929px;
+  margin-left: 388px;
+  margin-bottom: 40px;
 }
 
 .section1-subtitle {
@@ -108,10 +113,23 @@ body {
   color: #3A68B8;
   text-transform: uppercase;
   line-height: 29px;
+  width: 265px;
+  margin-top: 160px;
+  margin-left: 388px;
+  margin-bottom: 10px;
+  margin-right: 1268px;
 }
 
 .section1-listofpics{
   list-style-type: none;
+  margin-top: 215px;
+  margin-left: 388px;
+  display: flex;
+  flex-direction: row;
+}
+
+.section-listofpics a {
+  padding-right: 72px;
 }
 
 .section1-buttons{
@@ -121,6 +139,8 @@ body {
   font-weight: 600;
   font-size: 20px;
   line-height: 27px;
+  margin-left: 448px;
+  margin-top: 65px;
 }
 
 .section2-headline {
