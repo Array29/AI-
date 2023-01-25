@@ -19,7 +19,7 @@
 html{
   width: 1920px;
   height: 3850px;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
 }
@@ -29,8 +29,15 @@ body {
   font-size: 16px;
   line-height: 18px;
   color:#fff;
-  margin: ;
-  width: ;
+  margin: 0 auto;
+  width: 1144px;
+}
+
+.header-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 24px 0;
 }
 
 .header-nav {
@@ -43,9 +50,6 @@ body {
   width: 411px;
   align-items: center;
   justify-content: center;
-  margin-top: 0px;
-  margin-left: 754px;
-  margin-right: 755px;
 }
 
 .header-art {
@@ -54,9 +58,13 @@ body {
   color: #3A68B8;
   font-size: 23px;
   line-height: 31px;
-  width: 224px;
-  margin-top: 36px;
-  margin-left: 403px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.header-art span {
+  margin: 0 15px;
 }
 
 .header-nav a {
@@ -64,6 +72,7 @@ body {
   color:#fff;
   text-transform: capitalize;
   margin-right: 40px;
+  margin-top: 3px;
 }
 
 .section3-headline {
@@ -73,11 +82,21 @@ body {
   opacity: 70%;
 }
 
-.section3-text, .section2-text {
+.section3-text {
   font-weight: 600;
   font-size: 16px;
   line-height: 26px;
   opacity: 70%;
+}
+
+.section2-text{
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  opacity: 70%;
+  margin-left: 661px;
+  margin-top: 49px;
+  width: 460px;
 }
 
 .section1 {
@@ -92,9 +111,6 @@ body {
   line-height: 29px;
   opacity: 70%;
   width: 558px;
-  margin-left: 388px;
-  margin-right: 975px;
-  margin-bottom: 50px;
 }
 
 .main-heading{
@@ -102,9 +118,6 @@ body {
   font-size: 55px;
   line-height: 72px;
   width: 604px;
-  margin-right: 929px;
-  margin-left: 388px;
-  margin-bottom: 40px;
 }
 
 .section1-subtitle {
@@ -115,20 +128,17 @@ body {
   line-height: 29px;
   width: 265px;
   margin-top: 160px;
-  margin-left: 388px;
-  margin-bottom: 10px;
-  margin-right: 1268px;
 }
 
 .section1-listofpics{
   list-style-type: none;
   margin-top: 215px;
-  margin-left: 388px;
   display: flex;
   flex-direction: row;
+  padding-left: 0;
 }
 
-.section-listofpics a {
+.section1-listofpics a {
   padding-right: 72px;
 }
 
@@ -139,14 +149,17 @@ body {
   font-weight: 600;
   font-size: 20px;
   line-height: 27px;
-  margin-left: 448px;
   margin-top: 65px;
+  padding-right: 116px;
 }
 
 .section2-headline {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
+  width: 484px;
+  margin-top: 408px;
+  margin-left: 661px;
 }
 
 .section2-link{
@@ -155,6 +168,8 @@ body {
   font-weight: 600;
   text-decoration: none;
   line-height: 22px;
+  margin-left: 691px;
+  margin-top: 46px;
 }
 
 .footer-subtitle {
