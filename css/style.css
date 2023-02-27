@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 @font-face {
   font-family: 'Open-sans';
   src: url(/Fonts/open-sans-semibold.ttf);
@@ -32,7 +39,8 @@ html {
   height: 3850px;
   margin: 0 auto;
   padding: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body {
@@ -45,9 +53,16 @@ body {
 }
 
 .header-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   padding: 24px 0;
 }
 
@@ -56,10 +71,17 @@ body {
   font-weight: 600;
   font-size: 16px;
   line-height: 22px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   width: 411px;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin: 15px 270px;
 }
 
@@ -87,9 +109,16 @@ body {
   color: #3A68B8;
   font-size: 22px;
   line-height: 31px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-top: -24px;
 }
 
@@ -124,8 +153,13 @@ body {
   height: 454px;
   left: 0;
   position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   margin-top: 346px;
 }
 
@@ -134,6 +168,8 @@ body {
   height: 389px;
   margin: 0 30px 65px 0;
   border-radius: 10px;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(-41.9%, rgba(255, 255, 255, 0)), color-stop(115.68%, rgba(255, 255, 255, 0.15)));
+  background: -o-linear-gradient(top, rgba(255, 255, 255, 0) -41.9%, rgba(255, 255, 255, 0.15) 115.68%);
   background: linear-gradient(180deg, rgba(255, 255, 255, 0) -41.9%, rgba(255, 255, 255, 0.15) 115.68%);
 }
 
@@ -234,8 +270,13 @@ body {
 .section1-listofpics {
   list-style-type: none;
   margin-top: 197px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   padding-left: 0;
 }
 
@@ -265,8 +306,13 @@ body {
 }
 
 .section1-minidiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 .section1-buttons img {
@@ -278,8 +324,13 @@ body {
 .section1-buttons:last-child {
   width: 189px;
   padding: 15px 0 14px 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   margin-right: 0;
 }
 
@@ -386,8 +437,13 @@ body {
 }
 
 .footer-bigList {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   margin-top: 189px;
   margin-left: 0;
 }
@@ -413,7 +469,7 @@ body {
 
 .footer-ul {
   padding-top: 100px;
-  width: 165px
+  width: 165px;
   margin-right: 30px;
 }
 
@@ -428,8 +484,13 @@ body {
 }
 
 .footer-about .footer-soc_med {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   margin-left: 0;
   padding-left: 0;
   margin-top: 14px;
