@@ -396,6 +396,7 @@ body {
   font-weight: 600;
   font-size: 16px;
   line-height: 22px;
+  margin-bottom: 0;
 }
 
 .footer {
@@ -446,32 +447,47 @@ body {
       -ms-flex-direction: row;
           flex-direction: row;
   margin-top: 189px;
-  margin-left: 0;
+  margin-left: 35px;
+  padding-left: 0;
 }
 
 .footer-div1 h4 {
-  margin-top: 12px;
+  margin-top: 8px;
   margin-bottom: 0;
 }
 
 .footer-div1 {
-  padding-top: 77px;
+  padding-top: 95px;
   width: 281px;
   margin-left: 0;
+  margin-right: 13px;
+}
+
+.footer-div1 img {
+  width: 45px;
+  height: 60px;
 }
 
 .footer-text-div1 {
+  width: 260px;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.footer-text-div1 p {
   font-weight: 600;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 18px;
   opacity: 60%;
-  padding: 10px 0;
+  padding: 0 0;
 }
 
 .footer-ul {
   padding-top: 100px;
   width: 165px;
   margin-right: 30px;
+  padding: 0 0;
+  margin-top: 120px;
 }
 
 .footer-ul li {
