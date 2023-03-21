@@ -83,7 +83,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin: 15px 270px;
+  margin: 15px 240px;
 }
 
 .header-nav a {
@@ -94,14 +94,15 @@ body {
   margin-top: 0;
 }
 
-.header-button {
+li .header-button {
   background-color:#3A68B8;
   border-radius: 5px;
   padding: 15px 30px;
-  display: inline-block;
-  width: 112px;
-  margin-left: 216px;
-  top: -24px;
+  display: block;
+  width: 52px;
+  margin-left: 218px;
+  margin-top: -16px;
+  margin-bottom: 16px;
 }
 
 .header-art {
@@ -167,10 +168,10 @@ body {
 .section3-div {
   width: 362px;
   height: 389px;
-  margin: 0 30px 65px 0;
+  margin: 0 33px 65px 0;
   border-radius: 10px;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(-41.9%, rgba(255, 255, 255, 0)), color-stop(115.68%, rgba(255, 255, 255, 0.15)));
   background: -o-linear-gradient(top, rgba(255, 255, 255, 0) -41.9%, rgba(255, 255, 255, 0.15) 115.68%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(-41.9%, rgba(255, 255, 255, 0)), color-stop(115.68%, rgba(255, 255, 255, 0.15)));
   background: linear-gradient(180deg, rgba(255, 255, 255, 0) -41.9%, rgba(255, 255, 255, 0.15) 115.68%);
 }
 
@@ -220,6 +221,11 @@ body {
   left: 1695px;
   width: 98px;
   height: 103px;
+}
+
+.section3-commas {
+  margin-top: 50px;
+  margin-left: 927px;
 }
 
 .section2-text {
@@ -365,7 +371,7 @@ body {
 
 .section4 {
   width: 460px;
-  margin-top: 1015px;
+  margin-top: 998px;
 }
 
 .section4 h1 {
@@ -409,26 +415,28 @@ body {
 
 .footer-cont {
   font-weight: 600;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 18px;
-  margin-top: 20px;
+  margin: 0 0;
+  padding: 0 0;
 }
 
 .footer-text {
   font-weight: 600;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 18px;
   opacity: 60%;
+  padding-bottom: 12px;
 }
 
 .footer-text:last-child {
-  margin-top: 25px;
+  margin-top: 30px;
 }
 
 .footer a {
   color: #fff;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 13px;
   text-decoration: none;
   line-height: 18px;
   opacity: 60%;
@@ -463,23 +471,48 @@ body {
   margin-right: 13px;
 }
 
-.footer-div1 img {
+.footer-div1-logo {
   width: 45px;
   height: 60px;
+  margin-left: 0;
+  margin-right: 13px;
 }
 
 .footer-text-div1 {
   width: 260px;
   margin-top: 0;
   padding-top: 0;
+  padding-bottom: 4px;
 }
 
 .footer-text-div1 p {
   font-weight: 600;
-  font-size: 12px;
+  font-size: 13px;
   line-height: 18px;
   opacity: 60%;
   padding: 0 0;
+  margin-top: 5px;
+}
+
+.footer-conts-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  opacity: 100%;
+  padding: 0 0;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.footer-conts-div p {
+  margin-left: 10px;
 }
 
 .footer-ul {
@@ -496,7 +529,6 @@ body {
 
 .footer-about {
   padding-top: 104px;
-  margin-left: 31px;
   width: 261px;
 }
 
@@ -510,8 +542,8 @@ body {
           flex-direction: row;
   margin-left: 0;
   padding-left: 0;
-  margin-top: 14px;
-  margin-bottom: 53px;
+  margin-top: 20px;
+  margin-bottom: 50px;
 }
 
 .footer-soc_med li {
@@ -524,5 +556,43 @@ body {
   text-decoration: none;
   line-height: 20px;
   opacity: 100%;
-  padding-bottom: 7px;
+  padding-bottom: 16px;
+}
+
+.footer .footer-about-conts {
+  font-weight: 600;
+  font-size: 13px;
+  text-decoration: none;
+  line-height: 20px;
+  opacity: 100%;
+  padding-bottom: 17px;
+  padding-top: 10px;
+}
+
+.footer-lang {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  opacity: 100%;
+  padding-top: 0;
+}
+
+.footer-lang a {
+  margin-left: 8px;
+  margin-right: 10px;
+}
+
+.footer-ul div {
+  padding-bottom: 10px;
 }
